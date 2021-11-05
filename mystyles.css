@@ -1,0 +1,58 @@
+.selected {
+    background-color: #8c8b8b;
+    font-weight: bold;
+    color: #fff;
+}
+.container {
+    border-width: 1;
+    border-color: grey;
+    border-style: solid;
+    margin-top: 12px;
+}
+
+table {
+    width: 500px;
+    border: 2px solid grey;
+    border-collapse: collapse;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+th,
+td {
+    border: 1px solid grey;
+}
+
+body {
+    background-color: #dedcdc;
+}
+
+th {
+    background-color: #7a7878;
+}
+
+input {
+    background-color: #b5b3b3;
+    width: 100px;
+    height: 35px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 530px;
+    }
+}
+
+#requiredSection,
+#sumPower {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#comment {
+    font-size: 12px;
+}
+
+#firstLine {
+    margin-top: 12px;
+}
